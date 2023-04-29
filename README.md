@@ -1,5 +1,27 @@
-# CRC-examples
+# CRC-6-ITU, CRC-16 CCIT 인코더 및 디코더 테스트 Kotlin 프로그램
 
-- CRC-6, CRC-16 CCIT
-- Encoder, Decoder 포함
-- 인코딩, 디코딩 시간 Let's plot라이브러리로 그래프화 표시
+이 GitHub 저장소는 CRC-6-ITU 및 CRC-16 CCIT 인코더와 디코더를 구현한 Kotlin 프로그램을 포함하고 있습니다. 이 프로그램을 사용하면 인코딩 및 디코딩 작업을 쉽게 테스트할 수 있습니다. 프로그램은 Kotlin Notebook(.ipynb) 파일 형식으로 제공되며, Kotlin Let's plot 라이브러리를 사용하여 인코딩 및 디코딩 시간을 그래프로 시각화합니다.
+
+## 기능
+
+- CRC 인코딩 및 디코딩 구현
+- 각각의 인코딩 및 디코딩 과정 테스트
+- 인코딩 및 디코딩 시간을 Kotlin Let's plot 라이브러리를 사용하여 그래프로 시각화
+- 데이터는 기본적으로 100Bytes 단위로 1000개의 테스트 케이스를 생성합니다.
+  - 데이터는 Hash로 만들어 집니다.
+
+## 사용 방법
+
+1. 저장소를 클론하거나 다운로드합니다.
+2. Kotlin Notebook(.ipynb) 파일을 실행하기 위한 준비를 합니다.
+3. 인코딩 및 디코딩 테스트를 위해 Kotlin 코드를 실행합니다.
+4. 인코딩 및 디코딩 시간을 확인하고, 그래프로 시각화합니다.
+
+## 요구 사항
+
+- Kotlin이 설치되어 있어야 합니다.
+- Kotlin Notebook(.ipynb)을 실행할 수 있는 환경이 필요합니다 (예: Jupyter Notebook, IntelliJ IDEA 등).
+
+## 결론
+
+이 프로젝트는 CRC-6-ITU 및 CRC-16 CCIT 인코딩 및 디코딩을 쉽게 테스트하고 시각화하는 데 도움이 되는 간단한 Kotlin 프로그램을 제공합니다. 저장소를 다운로드하여 Kotlin Notebook에서 실행하십시오. 사용자는 이 프로그램을 이용하여 인코딩 및 디코딩 성능을 측정하고 결과를 그래프로 시각화할 수 있습니다.
